@@ -30,6 +30,13 @@ h1, p {
     text-align: center;
 }
 
+img {
+    border-radius: 100%;
+    border: 4px #999;
+    text-align: center;
+}
+
+
 .botao {
     background-color: rgb(5, 5, 5);
     padding: 0.5em 1em;
