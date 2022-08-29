@@ -32,23 +32,30 @@ h1, p {
 
 .botao {
     background-color: rgb(5, 5, 5);
-    padding: 10px;
+    padding: 0.5em 1em;
     border: none;
-    flex:1;
+    flex: 1;
     height: 40px;
     margin-left: 20px;
-    border-radius: 20px;
-    color:yellowgreen;
+    border-radius: 10px;
+    color:#930;
     font-weight: bold;
     cursor: pointer;
     text-transform: uppercase;
+    box-shadow: 2px 2px 0 1px #930;
+    transform: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.botao:active {
+    box-shadow: 0 0 0 0 #930, inset 3px 3px #930;
+    transform: translate(3px, 3x);
 }
 
 .bt-azul {
-    background-color: aquamarine;
-    color: rgb(61, 71, 102);
-    width: 40px; 
-    margin-top: 40px;
+    background-color: rgb (5, 5, 5);
+    color: rgb(205, 207, 48);
+    width: 110px; 
+    margin-top: 30px;
 }
 #btn-adicionar{
 color:rgb(205, 207, 48)
@@ -60,11 +67,11 @@ color:rgb(205, 207, 48)
 }
 
 #lista > li{
-    background-color: rgb(72, 165, 44);
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    border-radius: 4px;
+    background-color: rgb(61, 71, 102);
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6x;
     text-align: left;
     justify-content: space-between;
     align-items: center;
@@ -82,14 +89,14 @@ color:rgb(205, 207, 48)
 
 #tarefa-nova{
     background-color: rgb(169, 228, 76);
-    border: 3px solid rgb(8, 8, 12);
+    border: 2px solid rgb(8, 8, 12);
     padding: 4px;
     width: 80%;
     height: 40px;
     outline: none;
     font-size: 14px;
-    color:blue;
-    border-radius: 4x;
+    color: rgb(8, 8, 12);
+    border-radius: 2x;
     margin-top: 30px;
 
 

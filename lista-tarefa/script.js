@@ -9,7 +9,7 @@ function adicionarTarefa(){
     </li>`;
 
     const lista = document.querySelector("#lista");
-
+    
     lista.appendChild(item);
 
     inputTarefa.value=""
@@ -22,6 +22,10 @@ botaoAdicionar.addEventListener("click", adicionarTarefa)
 function limparLista(){
     const lista = document.querySelector("#lista");
     lista.innerhtHTML = ""
-}
+
+    }
+         
+
+
 
 const botaoLimpar = document.addEventListener("click", limparLista)

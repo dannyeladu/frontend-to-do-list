@@ -17,23 +17,28 @@
 </head>
 
 <body>
-    <img src="lista-de-compras-750x375.jpg" alt="imagem" />
+    <img src="lista-de-compras-750x375.jpg" height= "50%alt="imagem" />
     <img class="logo" src="Carrinho.png" alt="logo" />
+
     <main>
         <h1>Lista Mercado 2022</h1>
-        <p>Lista mercado Agosto</p>
+        <p>Lista de Agosto</p>
+        
         <input type="text" id="tarefa-nova"/>
         <button class="botao" id="btn-adicionar">Adicionar</button>
         <div class="caixa">
         <ul id="lista">
             <li>
-                <span>Macarrao</span>
-                <button class="excluir">X</button>
+                <span></span>
+                <button class="excluir">x</button>
+                
             </li>
 
         </ul>
+        <form onsubmit= "e => e.preventDefault()">
         <button class="botao bt-azul">Limpar</button>
 </div>
+</form>
     </main>
 <script src="script.js" ></script>
 </body>
