@@ -5,7 +5,7 @@ function adicionarTarefa(){
 
     item.innerHTML = `<li>
     <span>${inputTarefa.value}</span>
-    <button class="excluir">X</button>
+    
     </li>`;
 
     const lista = document.querySelector("#lista");

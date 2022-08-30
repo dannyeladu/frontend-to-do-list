@@ -60,12 +60,12 @@ img {
 
 .bt-azul {
     background-color: rgb (5, 5, 5);
-    color: rgb(205, 207, 48);
+    color: #98FB98;
     width: 110px; 
     margin-top: 30px;
 }
 #btn-adicionar{
-color:rgb(205, 207, 48)
+color: #98FB98
 }
 
 .caixa{
@@ -75,10 +75,10 @@ color:rgb(205, 207, 48)
 
 #lista > li{
     background-color: rgb(61, 71, 102);
-    width: 90%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 6x;
+    border: 0.5px #930, inset 3px 3px #930;
     text-align: left;
     justify-content: space-between;
     align-items: center;
@@ -95,8 +95,8 @@ color:rgb(205, 207, 48)
 }
 
 #tarefa-nova{
-    background-color: rgb(169, 228, 76);
-    border: 2px solid rgb(8, 8, 12);
+    background-color: #98FB98;
+    border: 0.5px #930, inset 3px 3px #930;
     padding: 4px;
     width: 80%;
     height: 40px;
